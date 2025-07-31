@@ -28,7 +28,7 @@ def fact_check(text):
     for content_block in message.content:
         if content_block.type == "text":
             print(message.content)
-    with open("transcript.txt", "a") as file:
+    with open("C:\\Users\\aaron\\Documents\\Rainmeter\\Skins\\Droptop Folders\\CustomFolder5\\VSC\\IhrKleinenPaschas\\transcript.txt", "a") as file:
         file.write(text + "\n")
         file.write(format(message.content) + "\n")
 
